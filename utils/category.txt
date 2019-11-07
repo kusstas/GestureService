@@ -1,0 +1,9 @@
+Other
+Sliding Two Fingers Down
+Sliding Two Fingers Up
+Stop Sign
+Swiping Left
+Swiping Right
+Thumb Up
+Zooming In With Two Fingers
+Zooming Out With Two Fingers

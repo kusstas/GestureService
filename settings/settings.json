@@ -1,0 +1,38 @@
+{
+    "urlService": "local:gesture_service",
+    "camera": 0,
+    "countFramesTrigger": 1,
+    "countFramesProcessing": 8,
+    "successThreshold": 0.8,
+    "tsnMaxBatches": 1,
+    "mlpMaxBatches": 1,
+    "resizeTargetSize": 256,
+    "cropTargetSize": 224,
+    "meanImg": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "stdImg": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "tsnOnnxPath": "gesture_resnet18_mlp_tsn.onnx",
+    "mlpOnnxPath": "gesture_resnet18_mlp_mlp.onnx",
+    "tsnSerializePath": "gesture_resnet18_mlp_tsn.pb",
+    "mlpSerializePath": "gesture_resnet18_mlp_mlp.pb",
+    "tsnMaxWorkspace": 1048576,
+    "mlpMaxWorkspace": 65536,
+    "gestureNames": [
+        "Other",
+        "Sliding Two Fingers Down",
+        "Sliding Two Fingers Up",
+        "Stop Sign",
+        "Swiping Left",
+        "Swiping Right",
+        "Thumb Up",
+        "Zooming In With Two Fingers",
+        "Zooming Out With Two Fingers"
+    ]
+}
